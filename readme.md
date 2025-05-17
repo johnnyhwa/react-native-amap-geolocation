@@ -1,4 +1,15 @@
-# react-native-amap-geolocation [![][version-badge]][npm] [![][build-badge]][build]
+# fork版本
+
+```
+修改了android/build.gradle兼容和react-native-amap3d同时使用时候的构建错误
+https://github.com/qiuxiang/react-native-amap3d/issues/787
+dependencies {
+    compileOnly 'com.facebook.react:react-native:+'
+    implementation 'com.amap.api:3dmap:9.6.0'
+}
+```
+
+# react-native-amap-geolocation-chef [![][version-badge]][npm] [![][build-badge]][build]
 
 **注意：该项目目前只维护，不加新功能。**
 
@@ -11,7 +22,7 @@ React Native 高德地图定位模块，支持 Android + iOS，提供尽可能�
 
 ```javascript
 import { PermissionsAndroid } from "react-native";
-import { init, Geolocation } from "react-native-amap-geolocation";
+import { init, Geolocation } from "react-native-amap-geolocation-chef";
 
 await PermissionsAndroid.requestMultiple([
   PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,

@@ -1,7 +1,7 @@
 module.exports = {
   dependency: { platforms: { android: { sourceDir: "lib/android" } } },
   dependencies: {
-    "react-native-amap-geolocation": {
+    "react-native-amap-geolocation-chef": {
       root: __dirname,
       platforms: {
         android: {

@@ -1,5 +1,5 @@
 {
-  "name": "react-native-amap-geolocation",
+  "name": "react-native-amap-geolocation-chef",
   "description": "React Native geolocation module for Android + iOS",
   "keywords": [
     "react-native",
@@ -7,17 +7,17 @@
     "location",
     "geolocation"
   ],
-  "version": "0.0.0",
-  "author": "7c00 <i@7c00.cc>",
+  "version": "1.0.3",
+  "author": "huahaoze",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qiuxiang/react-native-amap-geolocation"
+    "url": "https://github.com/johnnyhwa/react-native-amap-geolocation"
   },
   "license": "MIT",
   "files": [
     "src",
     "react-native.config.js",
-    "react-native-amap-geolocation.podspec",
+    "react-native-amap-geolocation-chef.podspec",
     "lib/js",
     "lib/ios",
     "lib/android/src",

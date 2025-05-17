@@ -15,7 +15,7 @@ import {
   setInterval,
   setLocatingWithReGeocode,
   setNeedAddress,
-} from "react-native-amap-geolocation";
+} from "react-native-amap-geolocation-chef";
 
 const style = StyleSheet.create({
   body: {
